@@ -1,0 +1,20 @@
+{
+    "name": "brotzka/php-crawler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabian Hagen",
+            "email": "kontakt@fabianhagen.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "7.1.*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brotzka\\PhpCrawler\\": "src/"
+        }
+    }
+}
